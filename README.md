@@ -1,11 +1,11 @@
-## credit-risk-classification
+# credit-risk-classification
 
 This is the repository for Monash University Data Analytics Bootcamp Module 20 Challenge
 
-## Background
+# Background
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
-## Instructions
+# Instructions
 
 The instructions for this Challenge are divided into the following subsections:
 
@@ -15,7 +15,7 @@ The instructions for this Challenge are divided into the following subsections:
 
 * Write a Credit Risk Analysis Report
 
-# Split the Data into Training and Testing Sets**
+## Split the Data into Training and Testing Sets
 
 Open the starter code notebook and use it to complete the following steps:
 
@@ -28,7 +28,7 @@ Open the starter code notebook and use it to complete the following steps:
 
 3. Split the data into training and testing datasets by using train_test_split.
 
-# Create a Logistic Regression Model with the Original Data**
+## Create a Logistic Regression Model with the Original Data
 
 Use your knowledge of logistic regression to complete the following steps:
 
@@ -44,7 +44,7 @@ Use your knowledge of logistic regression to complete the following steps:
 
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-# Write a Credit Risk Analysis Report**
+## Write a Credit Risk Analysis Report
 
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the `README.md` file included in your GitHub repository.
 
@@ -56,9 +56,9 @@ Structure your report by using the report template that `Starter_Code.zip` inclu
 
 3. **A summary:** Summarise the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-## Requirements
+# Requirements
 
-# Split the Data into Training and Testing Sets (30 points)
+## Split the Data into Training and Testing Sets (30 points)
 
 To receive all points, you must:
 
@@ -68,7 +68,7 @@ To receive all points, you must:
 
 * Split the data into training and testing datasets by using `train_test_split`. (15 points)
 
-# Create a Logistic Regression Model (30 points)
+## Create a Logistic Regression Model (30 points)
 
 To receive all points, you must:
 
@@ -84,7 +84,7 @@ To receive all points, you must:
 
     * Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels? (5 points)
 
-# Write a Credit Risk Analysis Report (20 points)
+## Write a Credit Risk Analysis Report (20 points)
 
 To receive all points, you must:
 
@@ -94,7 +94,7 @@ To receive all points, you must:
 
 * Summarise the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning. (10 points)
 
-# Coding Conventions and Formatting (10 points)
+## Coding Conventions and Formatting (10 points)
 To receive all points, you must:
 
 * Place imports at the top of the file, just after any module comments and docstrings and before module globals and constants. (3 points)
@@ -105,16 +105,16 @@ To receive all points, you must:
 
 * Use concise logic and creative engineering where possible. (2 points)
 
-# Code Comments (10 points)
+## Code Comments (10 points)
 
 To receive all points, your code must:
 
 * Be well commented with concise, relevant notes that other developers can understand. (10 points)
 
-## Resources
+# Resources
 
 BCS Xpert Learning assistant
 
-## Acknowledgments 
+# Acknowledgments 
 
 Dataset provided by provided by edX Boot Camps LLC.
