@@ -10,27 +10,29 @@ By examining the value counts of the loan status variable, the healthy and high-
 
 The stages of the machine learning process that were followed as part of this analysis include:
 
-* **Data Loading and Preparation:**
+* **Reading the csv into a Pandas dataframe and creating the labels and features**
 
 The dataset containing information about loans was loaded into a Pandas DataFrame and was reviewed to understand its structure, features, and the target variable to be predicted.
 
-* **Data Splitting:**
+![alt text](<Data Loading and Preparation.png>)
 
-The data was split into features (X) and labels (y), where the labels represented the loan status and was futhen split into training and testing sets using the `train_test_split` function to facilitate model training and evaluation.
+* **Using the training data (`X_train` and `y_train`) to make predictions on the testing data**
 
-* **Model Selection and Training:**
+The data was split into features (X) and labels (y), where the labels represented the loan status and was futher split into training and testing sets using the `train_test_split` function.
 
-The Logistic Regression model was trained using the training data to learn the patterns in the features and their relationship with loan status. and then used to make predictions on the testing data.
+![alt text](<Data Splitting.png>)
 
-* **Prediction and Evaluation:**
+The Logistic Regression model was trained using the training data to learn the patterns in the features and their relationship with loan status, then used to make predictions on the testing data.
+
+![alt text](<Model Selection and Training.png>)
+
+* **Evaluating the model’s performance:**
 
 The trained model was used to make predictions on the testing data through a confusion matrix to evaluate the model's performance, showing true/false positives and negatives. 
 
-Once predictions were made, a classification report displayed metrics such as precision, recall, F1-score, and support for each class, offering a detailed assessment of the model's predictive capabilities.
+Once predictions were made, a classification report displayed metrics such as precision, recall, F1-score, and support for each class.
 
-* **Analysis and Interpretation:**
-
-The model's performance metrics were analyzed to assess how well it predicted healthy and high-risk loans through the the model's accuracy, precision, recall, and F1-score for both classes.
+![alt text](<Prediction and Evaluation.png>)
 
 ## Results
 
