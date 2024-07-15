@@ -5,6 +5,7 @@ This is the repository for Monash University Data Analytics Bootcamp Module 20 C
 ## Contents
 
 * `Analysis_Report.md` is the written analysis report for this challenge 
+* `.png` files containing the screenshots of the notebook code used in `Analysis_Report.md`
 
 **Credit_Risk folder**
 
@@ -131,3 +132,21 @@ BCS Xpert Learning assistant
 # Acknowledgments 
 
 Dataset provided by provided by edX Boot Camps LLC.
+
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
+https://www.datacamp.com/tutorial/understanding-logistic-regression-python
+
+https://www.w3schools.com/python/python_ml_confusion_matrix.asp
+
+https://stackoverflow.com/questions/35178590/scikit-learn-confusion-matrix
+
+https://stackoverflow.com/questions/54776180/scikit-learn-confusion-matrix-performing-differently-based-on-strings
+
+https://stackoverflow.com/questions/29438265/stratified-train-test-split-in-scikit-learn
+
+https://datascience.stackexchange.com/questions/103249/how-to-use-train-test-split-with-existing-dataset
+
+https://www.statology.org/how-to-report-logistic-regression-results/
+
+https://realpython.com/train-test-split-python-data/
