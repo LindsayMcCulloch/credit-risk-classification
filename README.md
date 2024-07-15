@@ -2,6 +2,19 @@
 
 This is the repository for Monash University Data Analytics Bootcamp Module 20 Challenge
 
+## Contents
+
+* `Analysis_Report.md` is the written analysis report for this challenge 
+
+**Credit_Risk folder**
+
+* `credit_risk_classification.ipynb` Jupyter notebook containing the data query for this challenge
+
+    * **Resources folder**
+
+    * `lending_data.csv` file containing the loan data for this challenge
+
+
 # Background
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
